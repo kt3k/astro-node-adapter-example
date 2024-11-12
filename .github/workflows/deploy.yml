@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "yoshiyahino-astro-node-29"
-          entrypoint: "server/entry.mjs"
-          root: "dist"
+          entrypoint: "dist/server/entry.mjs"
+          root: ""
           
           
